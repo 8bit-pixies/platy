@@ -9,3 +9,9 @@ To start the app run:
 ```sh
 uv run app.py
 ```
+
+To build app
+
+```sh
+uv run pyinstaller -w --onefile --name="platy" --icon="icon.ico" app.py
+```
