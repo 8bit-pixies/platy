@@ -1,0 +1,16 @@
+[project]
+name = "platy"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "dearpygui>=1.11.1",
+    "segno>=1.6.1",
+    "pillow>=10.4.0",
+    "numpy>=2.1.1",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
